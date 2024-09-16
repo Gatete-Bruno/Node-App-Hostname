@@ -1,0 +1,33 @@
+{
+  "name": "codescreen-javascript-foo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.5",
+    "jest": "^25.5.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "pg": "^8.12.0"
+  },
+  "description": "` IMPORTANT NOTE`        We really want to see docker/kubernetes skills, so the choice of other tools (programming language, ansible/other configuration management tool, etc.) is up to you.",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
