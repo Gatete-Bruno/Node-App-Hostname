@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: postgres
-          image: postgres:13
+          image: bruno74t/postgres:v1.0.1
           env:
             - name: POSTGRES_DB
               value: api_db

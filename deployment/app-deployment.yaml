@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: your-app-image # Replace with your actual image (e.g., bruno74t/your-app-image)
+          image: bruno74t/codescreen_app:v1.0.1
           env:
             - name: POSTGRES_URI
               value: postgres://postgres:password@db:5432/api_db
