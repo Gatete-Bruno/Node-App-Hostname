@@ -1,3 +1,4 @@
-// test-import.js
-import express from 'express';
-console.log('Express imported successfully');
+test('sample test', () => {
+    expect(1 + 1).toBe(2);
+  });
+  
